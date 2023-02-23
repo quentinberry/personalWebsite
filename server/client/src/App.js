@@ -2,11 +2,6 @@ import './App.css';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 function App() {
-
-  const openLink = (site) => {
-    window.open(site);
-  }
-
   return (
     <div className="App">
       <Parallax pages={3}>
