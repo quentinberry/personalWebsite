@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalWebsite/static/css/main.9ed878ec.css",
-    "main.js": "/personalWebsite/static/js/main.3b7f01a2.js",
+    "main.css": "/personalWebsite/static/css/main.cbce22ba.css",
+    "main.js": "/personalWebsite/static/js/main.a853b5a7.js",
     "static/js/787.c4e7f8f9.chunk.js": "/personalWebsite/static/js/787.c4e7f8f9.chunk.js",
     "static/media/peace.PNG": "/personalWebsite/static/media/peace.0cfe025e83e90f870f64.PNG",
     "static/media/smile.PNG": "/personalWebsite/static/media/smile.8c82259233fe2051edba.PNG",
@@ -9,12 +9,12 @@
     "static/media/Cambay-Regular.woff2": "/personalWebsite/static/media/Cambay-Regular.17f3a0c768d94bee854f.woff2",
     "static/media/Cambay-Bold.woff2": "/personalWebsite/static/media/Cambay-Bold.e0dc0a33548fa34103b2.woff2",
     "index.html": "/personalWebsite/index.html",
-    "main.9ed878ec.css.map": "/personalWebsite/static/css/main.9ed878ec.css.map",
-    "main.3b7f01a2.js.map": "/personalWebsite/static/js/main.3b7f01a2.js.map",
+    "main.cbce22ba.css.map": "/personalWebsite/static/css/main.cbce22ba.css.map",
+    "main.a853b5a7.js.map": "/personalWebsite/static/js/main.a853b5a7.js.map",
     "787.c4e7f8f9.chunk.js.map": "/personalWebsite/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ed878ec.css",
-    "static/js/main.3b7f01a2.js"
+    "static/css/main.cbce22ba.css",
+    "static/js/main.a853b5a7.js"
   ]
 }
