@@ -1,4 +1,5 @@
 import './App.css';
+import 'animate.css';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 function App() {
@@ -6,10 +7,10 @@ function App() {
     <div className="App">
       <Parallax pages={3}>
         <ParallaxLayer offset={0} speed={0.9}>
-          <h1 class="indexTitle">Hi, I am Quentin Berger, a Berlin based Software Engineer.</h1>
+          <h1 class="indexTitle animate__animated animate__fadeInLeft">Hi, I am Quentin Berger, a Berlin based Software Engineer.</h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.5}>
-        <div class="memoji">
+        <div class="memoji animate__animated animate__fadeInRight">
             <div class="circle"></div>
             <div class="memojiImage"></div>
         </div>
