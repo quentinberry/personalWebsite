@@ -1,24 +1,46 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "client",
+  "version": "0.1.0",
   "homepage": "https://quentinberry.github.io/personalWebsite",
-  "main": "server.js",
+  "private": true,
+  "dependencies": {
+    "@react-spring/parallax": "^9.6.1",
+    "@react-spring/web": "^9.6.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server",
-    "dev": "nodemon server"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "nodemon": "^2.0.20"
+    "gh-pages": "^5.0.0"
   }
 }
