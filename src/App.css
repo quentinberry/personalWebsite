@@ -57,6 +57,7 @@ p{
   position: absolute;
   top: 30vh;
   right: 10vh;
+  animation-delay: 0.4s;
 }
 
 .memojiAboutMe{
